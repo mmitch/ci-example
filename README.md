@@ -18,5 +18,5 @@ Visualize your current status like this:
 
 ## prerequisites
 
-You need an accounts on TravisCI and Codecov.io that are linked to
+You need accounts on both TravisCI and Codecov.io that are linked to
 your Github account.
