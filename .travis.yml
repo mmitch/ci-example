@@ -1,1 +1,9 @@
 language: java
+
+# Codecov.io test coverage report
+# see https://github.com/codecov/example-java
+before_script:
+  - pip install --user codecov
+after_success:
+  - gradle jacocoTestReport
+  - codecov
