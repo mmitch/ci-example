@@ -1,5 +1,8 @@
 language: java
 
+jdk:
+  - openjdk8
+
 # Codecov.io test coverage report
 # see https://github.com/codecov/example-java
 before_script:
